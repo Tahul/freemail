@@ -1,21 +1,47 @@
 {
   "name": "freemail",
+  "type": "module",
   "version": "1.7.0",
   "description": "A database of free and disposable email domains and a handy Node.js module for querying it.",
-  "main": "index.js",
-  "scripts": {
-    "test": "tape test/test.js"
-  },
   "author": "Will White <will@mapbox.com>",
   "license": "ISC",
-  "devDependencies": {
-    "tape": "^4.10.1"
-  },
   "repository": {
     "type": "git",
     "url": "git://github.com/willwhite/freemail.git"
   },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "unbuild -c build.config.ts",
+    "stub": "unbuild -c build.config.ts --stub",
+    "lint": "eslint --cache --quiet",
+    "lint:fix": "eslint --cache --fix --quiet",
+    "release": "release-it",
+    "test": "pnpm lint && vitest run --coverage",
+    "test:ui": "vitest --ui --open=false",
+    "typecheck": "tsc --noEmit --skipLibCheck"
+  },
   "dependencies": {
-    "tldjs": "^1.5.2"
+    "@tahul/tldjs": "^3.0.0"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^2.9.0",
+    "@types/node": "^20.11.30",
+    "@types/punycode": "^2.1.4",
+    "@vitest/coverage-v8": "^1.4.0",
+    "benchmark": "^2.1.4",
+    "eslint": "^8.57.0",
+    "jiti": "1.21.0",
+    "release-it": "^17.1.1",
+    "typescript": "^5.4.3",
+    "unbuild": "^2.0.0",
+    "vitest": "^1.4.0"
   }
 }
