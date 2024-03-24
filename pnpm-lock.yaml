@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@tahul/tldjs':
-    specifier: ^3.0.0
-    version: 3.0.0
+    specifier: ^3.0.1
+    version: 3.0.1
 
 devDependencies:
   '@antfu/eslint-config':
@@ -1349,11 +1349,16 @@ packages:
       defer-to-connect: 2.0.1
     dev: true
 
-  /@tahul/tldjs@3.0.0:
-    resolution: {integrity: sha512-91GbjsMziDZzBVoS0rhYaFHxePgxjpONa5l92xs6XKNLZFsLZ3secgSKhm3AvdIXhaDnV2IfGYk6pmwvQMstzA==}
+  /@tahul/punycode@2.3.4:
+    resolution: {integrity: sha512-W3jmrdOGSWCpUIfrtrew8vUVdH0hnntZSKqBHKxZXTEVugGtbY337GCbeWIrmEi/lSwa/u00zKUYNKRJv/0Dsw==}
+    engines: {node: '>=6'}
+    dev: false
+
+  /@tahul/tldjs@3.0.1:
+    resolution: {integrity: sha512-u0GimYRT1B0QI9p6jbWJOCdi3PcI/OQwU3bKhx3zhKtw/PBtfpB5F4tv4+ryr5LBpG+07ARk6Ivhw6ikIhCzXA==}
     requiresBuild: true
     dependencies:
-      punycode: 2.3.1
+      '@tahul/punycode': 2.3.4
       url-parse: 1.5.10
     dev: false
 
@@ -5538,6 +5543,7 @@ packages:
   /punycode@2.3.1:
     resolution: {integrity: sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==}
     engines: {node: '>=6'}
+    dev: true
 
   /pupa@3.1.0:
     resolution: {integrity: sha512-FLpr4flz5xZTSJxSeaheeMKN/EDzMdK7b8PTOC6a5PYFKTucWbdqjgqaEyH0shFiSJrVB1+Qqi4Tk19ccU6Aug==}

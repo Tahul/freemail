@@ -29,7 +29,7 @@
     "typecheck": "tsc --noEmit --skipLibCheck"
   },
   "dependencies": {
-    "@tahul/tldjs": "^3.0.0"
+    "@tahul/tldjs": "^3.0.1"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.9.0",
