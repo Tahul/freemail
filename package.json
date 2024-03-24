@@ -1,5 +1,5 @@
 {
-  "name": "freemail",
+  "name": "@tahul/freemail",
   "type": "module",
   "version": "1.7.0",
   "description": "A database of free and disposable email domains and a handy Node.js module for querying it.",
