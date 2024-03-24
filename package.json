@@ -34,7 +34,6 @@
   "devDependencies": {
     "@antfu/eslint-config": "^2.9.0",
     "@types/node": "^20.11.30",
-    "@types/punycode": "^2.1.4",
     "@vitest/coverage-v8": "^1.4.0",
     "benchmark": "^2.1.4",
     "eslint": "^8.57.0",
