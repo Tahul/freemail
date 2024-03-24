@@ -1,5 +1,5 @@
 import { expect, it } from 'vitest'
-import * as freemail from '../index'
+import * as freemail from '../src/index'
 
 it('gmail.com should be free', () => expect(freemail.isFree('smith@gmail.com')).toEqual(true))
 
