@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@tahul/tldjs':
-    specifier: ^3.0.1
-    version: 3.0.1
+    specifier: ^3.0.2
+    version: 3.0.2
 
 devDependencies:
   '@antfu/eslint-config':
@@ -1354,9 +1354,8 @@ packages:
     engines: {node: '>=6'}
     dev: false
 
-  /@tahul/tldjs@3.0.1:
-    resolution: {integrity: sha512-u0GimYRT1B0QI9p6jbWJOCdi3PcI/OQwU3bKhx3zhKtw/PBtfpB5F4tv4+ryr5LBpG+07ARk6Ivhw6ikIhCzXA==}
-    requiresBuild: true
+  /@tahul/tldjs@3.0.2:
+    resolution: {integrity: sha512-VQQKnoJByJScN2OHaDZgZf9jDzP5VrF6l927z+IOFBcg6dMQSFJZ0ghBy3NfX+vIeZsaB0EOB0rLo78JiLpD9g==}
     dependencies:
       '@tahul/punycode': 2.3.4
       url-parse: 1.5.10

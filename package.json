@@ -1,7 +1,7 @@
 {
   "name": "@tahul/freemail",
   "type": "module",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "A database of free and disposable email domains and a handy Node.js module for querying it.",
   "author": "Will White <will@mapbox.com>",
   "license": "ISC",
@@ -29,7 +29,7 @@
     "typecheck": "tsc --noEmit --skipLibCheck"
   },
   "dependencies": {
-    "@tahul/tldjs": "^3.0.1"
+    "@tahul/tldjs": "^3.0.2"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.9.0",
