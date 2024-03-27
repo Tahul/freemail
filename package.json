@@ -1,7 +1,7 @@
 {
   "name": "@tahul/freemail",
   "type": "module",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "A database of free and disposable email domains and a handy Node.js module for querying it.",
   "author": "Will White <will@mapbox.com>",
   "license": "ISC",
